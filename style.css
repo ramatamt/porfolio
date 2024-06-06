@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color:red;
+    color: white;
+ 
+}
+ul{
+    display: flex;
+    
+}
+li{
+    margin-right: 10vh;
+    list-style: none;
+    font-weight: bold;
+    
+
+}
+li,a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    
+}
+li a:hover{
+    color: blue;
+}
+.didi{
+    width: 10vh;
+}
+.dingue{
+    color: red;
+}
+.pp{
+    border: 2px solid;
+    height: 95vh;
+    text-align: center;
+    
+    
+}
+.pp::before{
+    background-image: url(photo\ de\ groupe.webp);
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  width: 100%;
+  height: 95%;
+   opacity: 0.2;
+  
+   
+}
+
+.pp h2 {
+    position:relative;
+    top: 20vh;
+ 
+}
+.pp p {
+    position: relative;
+    top:20vh;
+}
+/*fin de la première section*/
+
+.pro{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.paragraphe{
+    font-size: 25px;
+}
+.bloc{
+    display: flex;
+    justify-content: space-around;
+}
+.bloc1,.bloc2,.bloc3{
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.bloc div{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3 s ease-in-out;
+    transition: .3 s ease-in-out;
+
+}
+.bloc div :hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+button{
+    border-radius: 10px;
+    width: 95px;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.mcp{
+   
+    display: flex;
+    justify-content: space-around;
+
+}
+.COM1, .COM2, .COM3{
+    border: 2px solid black;
+    color: rgb(221, 21, 21);
+    text-align: center;
+}
+#Ram{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.form {
+    font-family: Arial, sans-serif;
+    margin: 0;    
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(232, 30, 30);
+    width: 500px;
+
+}
+.contactform {
+    background: white;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contactform h2 {
+    margin-bottom: 1rem;
+}
+.contactform label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.contact-form input, .contact-form textarea {
+    width: 500%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contactform input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.contactform input[type="submit"]:hover {
+    background-color: #555;
+
+}
+#fou{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+}
+fieldset{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color:red;
+}
+input{
+    width: 300px;
+}
+
+textarea{
+    width: 300px;
+}
+
+
+   
+
+
+
